@@ -23,7 +23,7 @@ export default {
     });
 
     function initChart(){
-      let chartDom = document.getElementById('main');
+      let chartDom = document.getElementById('myEcharts');
       let myChart = echarts.init(chartDom);
       let option;
 
